@@ -33,6 +33,9 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
   }
   nav li {
     margin: 0 1rem 1rem 1rem;
